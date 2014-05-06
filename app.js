@@ -114,8 +114,8 @@ app.get('/user/all', function (req, res) {
 
 app.get('/users', function (req, res) {
     var result = [
-        {UserID: 1, Email: 'mhaderman'},
-        {UserID: 2, Email: 'test'}
+        {UserID: 1, Email: 'abrownlie'},
+        {UserID: 2, Email: 'jimjohn'}
     ];
     res.render('displayUserTable.ejs', {rs: result});
 });
